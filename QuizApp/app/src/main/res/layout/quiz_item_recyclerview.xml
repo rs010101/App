@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="25dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/quiz_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/quiz_subtitle_text"
+                android:text="@string/all_about_android_os"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:ignore="RelativeOverlap,UseCompoundDrawables">
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:contentDescription="@string/todoo"
+        android:src="@drawable/baseline_access_time_filled_24"
+        app:tint="@color/orange"
+        tools:ignore="ImageContrastCheck" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quiz_time"
+        android:text="@string/_20_min" />
+</LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
