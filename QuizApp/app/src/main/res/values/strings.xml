@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="todo">To Do</string>
+    <string name="quizquest">QuizQuest</string>
+    <string name="test_your_knowledge_anytime_anywhere">Test Your Knowledge Anytime, Anywhere</string>
+    <string name="todoo">TODO</string>
+    <string name="all_about_android_os">All about Android OS</string>
+    <string name="_20_min">20 min</string>
+    <string name="android">Android</string>
+    <string name="all_items">All Items</string>
+</resources>
