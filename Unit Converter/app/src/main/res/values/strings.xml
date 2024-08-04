@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UC</string>
+    <string name="convert">Convert</string>
+    <string name="value">Value</string>
+    <string name="result">Result</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+</resources>
