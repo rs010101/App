@@ -1,2 +1,1 @@
-Mobile Applications-
-Android projects.
+Mobile Applications- Android projects.
